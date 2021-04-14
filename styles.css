@@ -1,4 +1,68 @@
-:root{
-    --main--font : ;
-    --main--color : ;
+:root {
+    --main--font : font-family: 'Roboto', sans-serif;
+    --main--color : #2196F3;
 }
+
+body {
+font-family: var(--main--font);
+}
+
+/* COMPONENTS */
+
+.modal-btn{
+  
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+}
+
+/* END COMPONENTS */
+
+/* Sekcja HEADER */
+.navigation-list-link {
+
+
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+/* color: #212121; */
+}
+
+
+.modal-btn:hover,
+.modal-btn:focus,
+.navigation-list-link:hover,
+.navigation-list-link:focus{
+    color: var(--main--color);
+}
+
+.adress{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+}
+
+/* END Sekcja HEADER */
+
+
+/* HERO */
+
+.hero{
+    position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+background: #2F303A;
+}
+
+
+/* END HERO */
