@@ -9,7 +9,7 @@ font-family: var(--main--font);
 
 /* COMPONENTS */
 
-.modal-btn{
+.modal-btn {
   
 position: absolute;
 width: 200px;
@@ -55,7 +55,7 @@ letter-spacing: 0.03em;
 /* HERO */
 
 .hero{
-    position: absolute;
+position: absolute;
 width: 1600px;
 height: 600px;
 left: 0px;
@@ -63,6 +63,54 @@ top: 80px;
 
 background: #2F303A;
 }
+.h1_class{
+    position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.naglowek_drugiego_stopnia{
+    font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.naglowki_niższego_stopnia{
+    font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.akapit_p_class{
+    font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
 
 
 /* END HERO */
