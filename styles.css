@@ -11,7 +11,7 @@ font-family: var(--main--font);
 
 .modal-btn {
   
-position: absolute;
+position: relative;
 width: 200px;
 height: 50px;
 left: 700px;
@@ -32,6 +32,14 @@ letter-spacing: 0.02em;
 /* color: #212121; */
 }
 
+.pierwsza_czesc_logo{
+    word-spacing: 0;
+    color: #2196F3;
+}
+.druga_czesc_logo{
+    word-spacing: 0;
+}
+
 
 .modal-btn:hover,
 .modal-btn:focus,
@@ -41,6 +49,7 @@ letter-spacing: 0.02em;
 }
 
 .adress{
+   
     font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -48,14 +57,7 @@ line-height: 24px;
 /* or 171% */
 letter-spacing: 0.03em;
 }
-
-/* END Sekcja HEADER */
-
-
-/* HERO */
-
-.hero{
-position: absolute;
+.najwiekszy_element_na_stronie{
 width: 1600px;
 height: 600px;
 left: 0px;
@@ -63,8 +65,15 @@ top: 80px;
 
 background: #2F303A;
 }
+
+/* END Sekcja HEADER */
+
+
+/* HERO */
+
+
 .h1_class{
-    position: absolute;
+   position: absolute; 
 width: 696px;
 height: 120px;
 left: 452px;
@@ -91,7 +100,16 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
+.lorem_list_bg {
+    position: relative;
+    width: 1393px;
+height: 101px;
+left: 215px;
+top: 774px;
+}
+
 .naglowki_niższego_stopnia{
+    position: relative;
     font-weight: bold;
 font-size: 14px;
 line-height: 16px;
@@ -101,6 +119,7 @@ text-transform: uppercase;
 color: #212121;
 }
 .akapit_p_class{
+    position: relative;
     font-weight: normal;
 font-size: 14px;
 line-height: 24px;
@@ -110,7 +129,52 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
+.what_we_do{
+    position: relative;
+    width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+}
 
+.our_team_bg{
+    position: relative;
+    width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
 
+background: #F5F4FA;
+}
 
 /* END HERO */
+
+/* footer */
+.footer{
+    
+    width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+
+background: #2F303A;
+}
+.potrzeba_białego_tekstu{
+    color: #FFFFFF;
+}
+
+/* end of footer */
+
+
+
+/* main filters portfolio */
+
+.portfolio_btn {
+    
+    width: 653px;
+height: 54px;
+left: 453px;
+top: 174px;
+}
+
+/* END main filters portfolio */
