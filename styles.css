@@ -1,6 +1,7 @@
 :root {
     --main--font : font-family: 'Roboto', sans-serif;
     --main--color : #2196F3;
+    --secondary-font: black;
 }
 
 body {
@@ -33,11 +34,16 @@ letter-spacing: 0.02em;
 }
 
 .pierwsza_czesc_logo{
-    word-spacing: 0;
-    color: #2196F3;
+     font-family: var(--secondary-font); 
+      font-weight: 700;  
+      font-size: 26px;  
+      text-decoration: none;  
+      line-height: 1.192;  
+      letter-spacing: 0.03em; 
+      color: #2196F3
 }
 .druga_czesc_logo{
-    word-spacing: 0;
+    color: var(--main-color);
 }
 
 
@@ -49,9 +55,7 @@ letter-spacing: 0.02em;
 }
 
 .adress{
-   
-    font-style: normal;
-font-weight: normal;
+
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
@@ -94,14 +98,14 @@ color: #FFFFFF;
     font-weight: bold;
 font-size: 36px;
 line-height: 42px;
-text-align: center;
+/* text-align: center; */
 letter-spacing: 0.03em;
 
 color: #212121;
 }
 
 .lorem_list_bg {
-    position: relative;
+    /* position: relative; */
     width: 1393px;
 height: 101px;
 left: 215px;
@@ -109,7 +113,7 @@ top: 774px;
 }
 
 .naglowki_niższego_stopnia{
-    position: relative;
+    /* position: relative; */
     font-weight: bold;
 font-size: 14px;
 line-height: 16px;
@@ -119,7 +123,7 @@ text-transform: uppercase;
 color: #212121;
 }
 .akapit_p_class{
-    position: relative;
+    /* position: relative; */
     font-weight: normal;
 font-size: 14px;
 line-height: 24px;
@@ -130,7 +134,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .what_we_do{
-    position: relative;
+    /* position: relative; */
     width: 1170px;
 height: 386px;
 left: 215px;
@@ -151,7 +155,7 @@ background: #F5F4FA;
 
 /* footer */
 .footer{
-    
+    position: relative;
     width: 1600px;
 height: 252px;
 left: 0px;
