@@ -61,8 +61,7 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
-.modal-btn:hover,
-.modal-btn:focus,
+
 .nav__l_i:hover,
 .nav__l_i:focus,
 .adress_header_l_i:hover,
@@ -70,6 +69,11 @@ color: #212121;
 .portfolio_btn:hover,
 .portfolio_btn:focus{
     color: var(--main--color);
+}
+.modal-btn:hover,
+.modal-btn:focus{
+    background-color: var(--main--color);
+    color: var(--third-color);
 }
 
 .adress_header{
