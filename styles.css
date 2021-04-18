@@ -1,184 +1,201 @@
-:root {
+ :root {
     --main--font : font-family: 'Roboto', sans-serif;
     --main--color : #2196F3;
-    --secondary-font: black;
+    --secondary-color: black;
+    --third-color: white;
 }
 
 body {
 font-family: var(--main--font);
 }
-
-/* COMPONENTS */
-
-.modal-btn {
-  
-position: relative;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
+/* LOGO */
+.pierwsza_czesc_logo {
+  font-family: var(--main-color);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
-/* END COMPONENTS */
+.footer{
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+background: #2F303A;}
 
-/* Sekcja HEADER */
-.navigation-list-link {
+.druga_czesc_logo {
+  color: var(--secondary-color);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  line-height: 1.192;
+  font-weight: 700;
+  font-size: 26px;
+}
+/* NAGŁóWEK*/
+.header_menu{
+/* width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px; */
+background-color: var(--third-color);
+}
 
 
+
+/* .nav__list{
+width: 272px;
+height: 16px;
+left: 453px;
+top: 32px;
+} */
+
+.nav__l_i{
+text-decoration: none;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.333;
 letter-spacing: 0.02em;
-
-/* color: #212121; */
+color: #212121;
 }
-
-.pierwsza_czesc_logo{
-     font-family: var(--secondary-font); 
-      font-weight: 700;  
-      font-size: 26px;  
-      text-decoration: none;  
-      line-height: 1.192;  
-      letter-spacing: 0.03em; 
-      color: #2196F3
-}
-.druga_czesc_logo{
-    color: var(--main-color);
-}
-
 
 .modal-btn:hover,
 .modal-btn:focus,
-.navigation-list-link:hover,
-.navigation-list-link:focus{
+.nav__l_i:hover,
+.nav__l_i:focus,
+.adress_header_l_i:hover,
+.adress_header_l_i:focus,
+.portfolio_btn:hover,
+.portfolio_btn:focus{
     color: var(--main--color);
 }
 
-.adress{
-
+.adress_header{
+font-style: normal;
+font-weight: 500;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
+line-height: 1.333;
+letter-spacing: 0.02em;
+
 }
-.najwiekszy_element_na_stronie{
+
+.adress_header_l_i{
+text-decoration: none;
+color: var(--secondary-color);
+}
+
+/* .hero{
 width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-
 background: #2F303A;
-}
+} */
 
-/* END Sekcja HEADER */
-
-
-/* HERO */
-
-
-.h1_class{
-   position: absolute; 
-width: 696px;
+.znacznik_naglowka{
+text-transform: uppercase;
+/* width: 696px;
 height: 120px;
 left: 452px;
-top: 280px;
+top: 280px; */
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
-/* or 136% */
-
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FFFFFF;
+color: var(--third-color);
 }
 
-.naglowek_drugiego_stopnia{
-    font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-/* text-align: center; */
-letter-spacing: 0.03em;
+/* .modal-btn {
+  
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+} */
 
+/* Dotyczące tesktów */
+.akapit_p_class{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+
+.naglowki_niższego_stopnia{
+font-weight: bold;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 color: #212121;
 }
 
-.lorem_list_bg {
-    /* position: relative; */
-    width: 1393px;
+
+.naglowek_drugiego_stopnia{
+font-weight: bold;
+font-size: 36px;
+line-height: 1,166;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.potrzeba_białego_tekstu{
+    color: var(--third-color);
+}
+/* koniec dot. tekstu*/
+
+/* background*/
+/* .lorem_list_bg{
+width: 1393px;
 height: 101px;
 left: 215px;
 top: 774px;
 }
+.lorem_list{
+width: 270px;
+height: 101px;
+left: 215px;
+top: 774px;
+} */
 
-.naglowki_niższego_stopnia{
-    /* position: relative; */
-    font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-}
-.akapit_p_class{
-    /* position: relative; */
-    font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
-}
-.what_we_do{
-    /* position: relative; */
-    width: 1170px;
+/* .what_we_do{
+width: 1170px;
 height: 386px;
 left: 215px;
 top: 969px;
 }
 
 .our_team_bg{
-    position: relative;
-    width: 1600px;
+width: 1600px;
 height: 648px;
 left: 0px;
 top: 1449px;
-
-background: #F5F4FA;
 }
 
-/* END HERO */
-
-/* footer */
-.footer{
-    position: relative;
-    width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-
-background: #2F303A;
+.adress{
+width: 247px;
+height: 81px;
+left: 215px;
+top: 1739px;
 }
-.potrzeba_białego_tekstu{
-    color: #FFFFFF;
-}
+.logo_stopki{
+width: 145px;
+height: 31px;
+left: 215px;
+top: 1688px;
+} */
 
-/* end of footer */
 
-
-
-/* main filters portfolio */
-
-.portfolio_btn {
-    
-    width: 653px;
-height: 54px;
-left: 453px;
+/* PORTFOLIO PART */
+/* .portfolio_btn{
+width: 128px;
+height: 38px;
+left: 576px;
 top: 174px;
-}
-
-/* END main filters portfolio */
+} */
