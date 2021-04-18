@@ -66,12 +66,13 @@ color: #212121;
 .nav__l_i:focus,
 .adress_header_l_i:hover,
 .adress_header_l_i:focus,
-.portfolio_btn:hover,
-.portfolio_btn:focus{
+{
     color: var(--main--color);
 }
 .modal-btn:hover,
-.modal-btn:focus{
+.modal-btn:focus,
+.portfolio_btn:hover,
+.portfolio_btn:focus{
     background-color: var(--main--color);
     color: var(--third-color);
 }
@@ -112,14 +113,14 @@ letter-spacing: 0.06em;
 color: var(--third-color);
 }
 
-/* .modal-btn {
-  
-position: absolute;
+.modal-btn {
+  cursor: pointer;
+/* position: absolute;
 width: 200px;
 height: 50px;
 left: 700px;
-top: 430px;
-} */
+top: 430px; */
+}
 
 /* Dotyczące tesktów */
 .akapit_p_class{
@@ -197,9 +198,10 @@ top: 1688px;
 
 
 /* PORTFOLIO PART */
-/* .portfolio_btn{
+.portfolio_btn{
+cursor: pointer;
 width: 128px;
 height: 38px;
 left: 576px;
 top: 174px;
-} */
+}
